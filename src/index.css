@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+  overscroll-behavior: none;
+  position: fixed;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+input {
+  -webkit-appearance: none;
+}
